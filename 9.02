@@ -1,0 +1,11 @@
+a = int(input('Ievadīt skaitlu: '))
+
+if a % 2 == 1:
+    i = 1
+    c = 1
+    d = c
+    while  i <= a:
+        i += 1
+        c += 2
+        d += c
+print(d
